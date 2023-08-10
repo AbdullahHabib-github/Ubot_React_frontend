@@ -1,6 +1,8 @@
 # Ubot React Frontend
 Welcome to the Ubot React Frontend repository! This repository contains the frontend components and interface for interacting with the Langchain-powered chatbot api provided at [Ubot](https://github.com/AbdullahHabib-github/Ubot).
 
+![Screenshot 2023-08-10 183332](https://github.com/AbdullahHabib-github/Ubot_React_frontend/assets/91840456/6f8c0747-3b7f-4a28-ba7b-e916da3956d5)
+
 ## Getting Started
 Follow these steps to set up and run the frontend of the Ubot chatbot on your local machine.
 
