@@ -34,7 +34,7 @@ function App() {
     };
     
     try {
-      const response = await fetch("http://localhost:8000/Chat_me", {
+      const response = await fetch("https://web-production-3e03c.up.railway.app/Chat_me", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'
