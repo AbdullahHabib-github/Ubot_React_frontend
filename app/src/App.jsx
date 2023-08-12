@@ -11,7 +11,7 @@ function App() {
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
     {
-      message: "hello",
+      message: "Hello! I'm a chat bot here to help answer your questions about Habib Bank Limited (HBL). How can I assist you today?",
       sender: "api"
     }
   ]);
