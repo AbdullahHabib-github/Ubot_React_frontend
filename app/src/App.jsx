@@ -33,7 +33,7 @@ function App() {
     };
     
     try {
-      const response = await fetch("https://web-production-3e03c.up.railway.app/Chat_me", {
+      const response = await fetch("https://wingwarranty-production.up.railway.app/Chat_me", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'
