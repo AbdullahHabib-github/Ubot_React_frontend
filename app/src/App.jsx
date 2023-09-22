@@ -11,7 +11,7 @@ function App() {
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
     {
-      message: "Hello! I'm a chat bot here to help answer your questions about Habib Bank Limited (HBL). How can I assist you today?",
+      message: "Hej! Jeg er en WingWarranty-chatbot. Jeg er en automatiseret assistent designet til at give præcis information om de tre forsikringsprogrammer, som WingWarranty tilbyder: Basis, Komplet og Premium. Hvordan kan jeg hjælpe dig i dag?",
       sender: "api"
     }
   ]);
@@ -29,7 +29,6 @@ function App() {
 
   async function processMessagetoAPI(query) {
     const apiRequestBody = {
-      Userid: '1258',
       query: query
     };
     
@@ -66,7 +65,7 @@ function App() {
    return (
     <div className="App">
      <div style={{ position: "relative", height: "100%", width: "100%", maxWidth: "700px", margin: "0 auto" }}>      <h1 style={{ textAlign: "center", marginBottom: "20px", color: "#A6DAD8", fontSize: "20px" }}>
-          <span style={{ color: "#009591", fontSize: "28px" }}>HBL</span> Demo Chatbot
+          <span style={{ color: "#009591", fontSize: "28px" }}>WingWarranty</span> Demo Chatbot
         </h1>
         <MainContainer>
           <ChatContainer>
